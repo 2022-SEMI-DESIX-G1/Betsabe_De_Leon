@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 3</title>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+      function contarletras(frase) {
+  
+  let conteo = {};
+
+  frase.replace(/\S/g, function(p) {
+      conteo[p] = (isNaN(conteo[p]) ? 1 : conteo[p] + 1);
+  });
+
+  return conteo;
+}
+
+  console.log(contarletras('Hola mundo')); 
+
+function bisiesto(year){
+var bool = false; 
+if (year % 4 == 0 ){
+
+return true;
+}else{
+return false;
+}
+}
+if (bisiesto(2089)){
+   console.log("Es bisiesto");
+}
+else
+{
+       console.log("No es bisiesto");
+}
+
+function sumPrimes(num) {
+var r = 0;
+for(var i=1;i<=num;i++){
+ if(isPrime(i)) r+=i;
+}
+return r;
+}
+
+function isPrime(n){
+if(n<=3) return n>1;
+if(n%2===0||n%3===0) return false;
+for(var  i = 5; i * i <= n; i += 6){
+ if(n % i === 0 || n % (i + 2)=== 0){ return false; }
+}
+return true;
+}
+console.log(sumPrimes(20));
+
+
+
+    </script>
+
+</body>
+
+</html>
