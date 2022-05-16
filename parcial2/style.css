@@ -1,0 +1,330 @@
+
+*{
+	box-sizing:border-box;
+	font-family: 'Montserrat', sans-serif; 
+
+}
+
+body {
+	background-color: #031926;
+}
+
+.container {
+	height: 210PX;
+	width: 550px;
+	/* right: 500px;	 */
+    /* margin-left: 280px; */
+	text-align: center;
+	border: solid 2px #c2c2c2;
+	/* padding-bottom: 160px; */
+	margin: auto;
+	background: #ffffff;
+	/* position: absolute; */
+	/* top: 90px; */
+	font-family: 'Montserrat', sans-serif; 
+	margin: 0 auto;
+	border-radius:5px;
+	margin-top: 100px;
+	border: none;
+	padding-top: 45px ;
+  }
+
+  
+  .titulo{
+	margin: 0;
+	margin-left: -165px;
+	font-weight: bold;
+	position: relative;
+	top: -10px;
+	font-size: 22px ;
+
+  }
+
+  .whocan{
+	top: 5px; 
+	margin-left: 25px; 
+	position:relative;
+	font-size: 20px;  
+  }
+  
+
+  .text{
+	top: 3px; 
+	margin-left: -95px; 
+	position:relative;
+	font-size: 12px;  
+	
+}
+
+  .list{
+	font-size: 15px;  
+  }
+
+  .list::first-letter{
+
+    text-transform: uppercase;
+
+}
+
+
+
+  .nombre{
+	top: 5px; 
+	margin-left: 25px; 
+	position:relative;
+	font-size: 25px;  
+	
+
+  }
+
+  .nombre::first-letter{
+
+    text-transform: uppercase;
+
+}
+
+.name::first-letter{
+
+    text-transform: uppercase;
+
+}
+  .img {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 240px;
+	top:36px;
+  }
+  .imgs{
+	  display: grid;
+	  grid-template-columns: 1fr 1fr ;
+
+
+  }
+
+  /* #sprite1{
+	width: 10%;
+	height: 20%;
+	margin-left: 50;
+	display: block;
+  }
+
+  #sprite2{
+	width: 10%;
+	height: 20%;
+	margin-left: 50;
+	display: block;
+  } */
+
+  #sprite{
+	  width: 100px;
+  }
+
+  .pika{
+	display: flex;
+    justify-content: start;
+    position: relative;
+	width: 50;
+    height: 50px;
+	margin-left: 18px;
+	top: -20px;
+  }
+
+  .pika1{
+	display: flex;
+    justify-content: start;
+    position: relative;
+	width: 50;
+    height: 50px;
+	left: -100px;
+	margin-left: 18px;
+	top: -20px;
+  }
+
+
+   .firstElements {
+	
+    
+    display:grid;
+   
+	grid-template-columns: 1fr 1fr;
+	
+	padding-right: -60px;
+	top: -50px;
+
+
+
+  }
+
+  .info{
+
+    font-size: 12px;
+	height: 70px;
+	top: 150px;
+  }
+
+  .info ul{
+
+    padding-right: -50px;
+
+}
+
+.err{
+
+    /* height: 210px; */
+
+    width: 70vw;
+
+    max-width: 530px;
+
+    margin: 0 auto;
+
+    margin-top: 10px;
+
+    border-radius: 5px;
+
+    background: #fff;
+
+    text-align: center;
+
+    font-size: 21px;
+
+    padding: 5px 0;
+
+}
+  
+  .inputs{
+
+	width: 500px;
+	
+	margin: auto;
+	top: 50px;
+	position: relative;
+	}
+
+  #busca{
+	float: left; 
+	width: 172px;
+	margin-left: -25px;
+	font-family: 'Montserrat', sans-serif; 
+	height:25px; 
+	overflow:auto;
+	top: -60px;
+  position: absolute;
+  
+  }
+
+  #buscar{
+	float: left; 
+	width: 115px;
+	margin-left: 105px;
+	font-family: Arial, Helvetica, sans-serif; 
+	height:27px; 
+	overflow:auto;
+	top: 26px;
+	position: absolute;
+	border-radius:5px;
+	background-color: #19A5F8;
+	border: none;
+	color: #ffffff;
+	font-weight: bold;
+  }
+
+  #tipo{
+	float: left; 
+	width: 172px;
+	margin-left: 228px;
+	font-family: 'Montserrat', sans-serif; 
+	height:25px; 
+	overflow:auto;
+	top: -60px;
+	position: absolute;
+  }
+
+
+  input{
+	  background-color: rgba(208, 203, 203, 0.652);
+	  border: rgb(219, 225, 227);
+	  margin-left: -215px;
+	  top: -20px;
+	  position: absolute;
+	  border-radius:5px;
+	  height: 25px;
+	  width: 210px;
+  }
+
+  select{
+	background-color: rgba(208, 203, 203, 0.652);
+	border: rgb(219, 225, 227);
+	margin-left: 10px;
+	top: -20px;
+	position: absolute;
+	border-radius:5px;
+	height: 26.5px;
+	width: 210px;     
+  }
+
+ 
+
+  .limpiar{
+	float: left; 
+	width: 112px;
+	margin-left: -213.5px;
+	font-family: Arial, Helvetica, sans-serif; 
+	height:27px; 
+	overflow:auto;
+	top: 25px;
+	position: absolute;
+	border-radius:5px;
+	background-color: #19A5F8;
+	border: none;
+	color:#ffffff;
+	visibility: hidden;
+	font-weight: bold;
+  }
+
+  .ability, #pokemon{
+	  background: #ffffff;
+	  width: 550px;
+	  
+	  margin:auto;
+	  border-radius: 5px;
+	  padding: 10px;
+	  margin-top: 15px;
+	  font-family: 'Montserrat', sans-serif; 
+	
+	}
+
+
+
+	.name {
+
+		padding: -20px;
+		margin-left: 30px;
+
+	}
+
+	.titles{
+		padding: -20px;
+		margin-left: 30px;
+	
+	}
+  
+	.tit{
+		padding: -20px;
+		margin-left: 30px;
+		top: -100px;
+	}
+
+	.habilidad{
+		margin-left: -30px;
+		top: -100px;
+		margin-top: -10px;
+	}
+
+	.evolution{
+		margin-left: 15px;
+		margin-top: -15px;
+	}
