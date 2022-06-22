@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<body>
+ 
+  <section class="section">
+    <main class="container">
+      <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" alt="" srcset="" class="img">
+      <form class="pokemon-form" action="">
+        <label for="Sprites"><input type="checkbox" name="Sprites" id="sprit" class="item"> Sprites</label>
+        <label><input type="checkbox" name="evolutionChain" id="chain" class="item"> Evolution Chain</label>
+        <label for="Ubicación"><input type="checkbox" name="location" id="location" class="item"> Locations </label>
+        <div class = "contain">
+        <input id="pokemon-input" type="text">
+        <div class= "boton">
+          <button class = "btn" type="submit">Search</button>
+        </div>
+      </div>
+      </form>
+    </section>
+    <section id="pokemon-finder-response" class=""></section>
+    <div class="space"></div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
