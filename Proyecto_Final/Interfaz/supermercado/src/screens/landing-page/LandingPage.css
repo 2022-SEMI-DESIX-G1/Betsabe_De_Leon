@@ -1,0 +1,29 @@
+.main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(../../images/landing-page.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.subtitle {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.intro-text {
+  width: 100%;
+  text-align: center;
+}
+
+.button-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.landing-button {
+  width: 200px;
+  height: 55px;
+}
